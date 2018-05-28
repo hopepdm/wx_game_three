@@ -68,3 +68,6 @@ renderer = new THREE.WebGLRenderer({
         antialias: true,
       });
 ```
+
+## demo
+![](./images/3601.gif)
