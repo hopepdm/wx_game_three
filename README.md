@@ -21,8 +21,10 @@
 ```
 熟悉three.js的同学，我就不仔细介绍目录的作用了。这里给出一个很简单的demo，在scene中add一个奔跑的兔子。
 
-##issue答疑
+## issue答疑
+
 项目运行中你可能会遇到以下几类问题。
+
 > 1、TypeError: n.addEventListener is not a function(load Model)
 
 这是因为微信给出的XMLHttpRequest缺少addEventListener，我们在weapp-adapter.js中添加上去，找到XMLHttpResquest的定义部分
